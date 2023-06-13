@@ -1,4 +1,4 @@
-FROM node:bullseye-slim as base
+FROM node:20.3.0-slim as base
 
 RUN mkdir /app
 WORKDIR /app
